@@ -14,13 +14,18 @@ public class Table {
 
     private DeckFactory deck;
     private Croupier croupier;
-    private PlayerHandler players;
+    private PlayerHandler[] players;
+    private boolean tableOpen;
 
 
     private Table(){
 
     }
     public void getPlayers(){
+
+    }
+
+    public void closeTable(){
 
     }
 

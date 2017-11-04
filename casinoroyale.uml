@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.academiadecodigo.casinoroyale</OriginalElement>
+  <nodes>
+    <node x="571.2777777777776" y="1213.0">org.academiadecodigo.casinoroyale.Casino</node>
+    <node x="0.0" y="0.0">org.academiadecodigo.casinoroyale.Value</node>
+    <node x="234.9236111111111" y="454.5">org.academiadecodigo.casinoroyale.Card</node>
+    <node x="337.77777777777766" y="789.0">org.academiadecodigo.casinoroyale.Table</node>
+    <node x="369.0" y="121.5">org.academiadecodigo.casinoroyale.Type</node>
+    <node x="235.6736111111111" y="644.0">org.academiadecodigo.casinoroyale.DeckFactory</node>
+    <node x="680.0" y="643.5">org.academiadecodigo.casinoroyale.PlayerHandler</node>
+    <node x="691.7777777777777" y="866.0">org.academiadecodigo.casinoroyale.Server</node>
+    <node x="417.2777777777776" y="1067.0">org.academiadecodigo.casinoroyale.Game</node>
+    <node x="642.0" y="410.0">org.academiadecodigo.casinoroyale.Player</node>
+    <node x="403.6736111111111" y="622.0">org.academiadecodigo.casinoroyale.Croupier</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.academiadecodigo.casinoroyale.Server" target="org.academiadecodigo.casinoroyale.PlayerHandler">
+      <point x="-65.0" y="-37.0" />
+      <point x="756.7777777777777" y="764.0" />
+      <point x="763.0" y="764.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Card" target="org.academiadecodigo.casinoroyale.Type">
+      <point x="37.25" y="-36.5" />
+      <point x="346.6736111111111" y="385.0" />
+      <point x="443.5" y="385.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.PlayerHandler" target="org.academiadecodigo.casinoroyale.Player">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.DeckFactory">
+      <point x="-111.33333333333326" y="-114.0" />
+      <point x="393.4444444444444" y="764.0" />
+      <point x="309.6736111111111" y="764.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Game" target="org.academiadecodigo.casinoroyale.Table">
+      <point x="5.6843418860808015E-14" y="-48.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.PlayerHandler">
+      <point x="111.33333333333343" y="-114.0" />
+      <point x="616.1111111111111" y="764.0" />
+      <point x="707.6666666666665" y="764.0" />
+      <point x="-55.33333333333337" y="37.0" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Card" target="org.academiadecodigo.casinoroyale.Value">
+      <point x="-37.25" y="-36.5" />
+      <point x="272.1736111111111" y="385.0" />
+      <point x="174.5" y="385.0" />
+      <point x="0.0" y="180.0" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.Croupier">
+      <point x="5.6843418860808015E-14" y="-114.0" />
+      <point x="504.7777777777777" y="764.0" />
+      <point x="511.6736111111111" y="764.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Casino" target="org.academiadecodigo.casinoroyale.Server">
+      <point x="46.0" y="-25.5" />
+      <point x="709.2777777777776" y="1188.0" />
+      <point x="821.7777777777777" y="1188.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.DeckFactory" target="org.academiadecodigo.casinoroyale.Card">
+      <point x="-37.0" y="-36.5" />
+      <point x="-37.25" y="36.5" />
+    </edge>
+    <edge source="org.academiadecodigo.casinoroyale.Casino" target="org.academiadecodigo.casinoroyale.Game">
+      <point x="-46.0" y="-25.5" />
+      <point x="617.2777777777776" y="1188.0" />
+      <point x="504.7777777777776" y="1188.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="328.5" y="826.0" />
+  <SelectedNodes>
+    <node>org.academiadecodigo.casinoroyale.Table</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
