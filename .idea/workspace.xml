@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4362596-7be1-4929-b60c-49b068cd029a" name="Default" comment="">
+    <list default="true" id="2f84ef6f-3cf4-487c-9e2b-2ee17301bc47" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Card.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Casino.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Casino.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Croupier.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Croupier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/DeckFactory.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/DeckFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Game.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Player.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/PlayerHandler.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/PlayerHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Server.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Server.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Table.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Table.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Value.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Value.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,98 +27,93 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JAVA/org.academiadecodigo.casinoroyale" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/org.academiadecodigo.casinoroyale">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>org.academiadecodigo.casinoroyale</OriginalElement>
-              <nodes>
-                <node x="571.2777777777778" y="1213.0">org.academiadecodigo.casinoroyale.Casino</node>
-                <node x="0.0" y="0.0">org.academiadecodigo.casinoroyale.Value</node>
-                <node x="234.9236111111111" y="454.5">org.academiadecodigo.casinoroyale.Card</node>
-                <node x="337.77777777777777" y="789.0">org.academiadecodigo.casinoroyale.Table</node>
-                <node x="369.0" y="121.5">org.academiadecodigo.casinoroyale.Type</node>
-                <node x="235.6736111111111" y="644.0">org.academiadecodigo.casinoroyale.DeckFactory</node>
-                <node x="680.0" y="643.5">org.academiadecodigo.casinoroyale.PlayerHandler</node>
-                <node x="691.7777777777778" y="866.0">org.academiadecodigo.casinoroyale.Server</node>
-                <node x="417.27777777777777" y="1067.0">org.academiadecodigo.casinoroyale.Game</node>
-                <node x="642.0" y="410.0">org.academiadecodigo.casinoroyale.Player</node>
-                <node x="403.6736111111111" y="622.0">org.academiadecodigo.casinoroyale.Croupier</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.academiadecodigo.casinoroyale.Server" target="org.academiadecodigo.casinoroyale.PlayerHandler">
-                  <point x="-65.0" y="-37.0" />
-                  <point x="756.7777777777778" y="764.0" />
-                  <point x="763.0" y="764.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Card" target="org.academiadecodigo.casinoroyale.Type">
-                  <point x="37.25" y="-36.5" />
-                  <point x="346.6736111111111" y="385.0" />
-                  <point x="443.5" y="385.0" />
-                  <point x="0.0" y="58.5" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.PlayerHandler" target="org.academiadecodigo.casinoroyale.Player">
-                  <point x="0.0" y="-37.0" />
-                  <point x="0.0" y="81.0" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.DeckFactory">
-                  <point x="-111.33333333333331" y="-114.0" />
-                  <point x="393.44444444444446" y="764.0" />
-                  <point x="309.6736111111111" y="764.0" />
-                  <point x="0.0" y="36.5" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Game" target="org.academiadecodigo.casinoroyale.Table">
-                  <point x="0.0" y="-48.0" />
-                  <point x="0.0" y="114.0" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.PlayerHandler">
-                  <point x="111.33333333333337" y="-114.0" />
-                  <point x="616.1111111111111" y="764.0" />
-                  <point x="707.6666666666666" y="764.0" />
-                  <point x="-55.33333333333337" y="37.0" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Card" target="org.academiadecodigo.casinoroyale.Value">
-                  <point x="-37.25" y="-36.5" />
-                  <point x="272.1736111111111" y="385.0" />
-                  <point x="174.5" y="385.0" />
-                  <point x="0.0" y="180.0" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.Croupier">
-                  <point x="0.0" y="-114.0" />
-                  <point x="504.77777777777777" y="764.0" />
-                  <point x="511.6736111111111" y="764.0" />
-                  <point x="0.0" y="58.5" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Casino" target="org.academiadecodigo.casinoroyale.Server">
-                  <point x="46.0" y="-25.5" />
-                  <point x="709.2777777777778" y="1188.0" />
-                  <point x="821.7777777777778" y="1188.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.DeckFactory" target="org.academiadecodigo.casinoroyale.Card">
-                  <point x="-37.0" y="-36.5" />
-                  <point x="-37.25" y="36.5" />
-                </edge>
-                <edge source="org.academiadecodigo.casinoroyale.Casino" target="org.academiadecodigo.casinoroyale.Game">
-                  <point x="-46.0" y="-25.5" />
-                  <point x="617.2777777777778" y="1188.0" />
-                  <point x="504.77777777777777" y="1188.0" />
-                  <point x="0.0" y="48.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="328.5" y="826.0" />
-              <SelectedNodes>
-                <node>org.academiadecodigo.casinoroyale.Table</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="Casino.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Casino.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Croupier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Croupier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="method#getDeck#0;class#Croupier#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/DeckFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="881">
+              <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding>
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/PlayerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2194#2195#0" expanded="true" />
+                <element signature="e#2227#2228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="811">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Server#0;class#Server#0" expanded="false" />
+                <element signature="method#openServer#0;class#Server#0" expanded="false" />
+                <element signature="method#sendMessage#0;class#Server#0" expanded="false" />
+                <element signature="method#playerRemove#0;class#Server#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,9 +121,39 @@
       <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Table#0;class#Table#0" expanded="false" />
+                <element signature="method#getPlayers#0;class#Table#0" expanded="false" />
+                <element signature="method#closeTable#0;class#Table#0" expanded="false" />
+                <element signature="method#shuffle#0;class#Table#0" expanded="false" />
+                <element signature="method#giveDeck#0;class#Table#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Type.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Value.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Value.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              <folding>
+                <element signature="method#Value#0;class#Value#0" expanded="false" />
+                <element signature="method#getValue#0;class#Value#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +171,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Card.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Casino.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Croupier.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/DeckFactory.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Game.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Player.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/PlayerHandler.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Value.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Table.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Server.java" />
       </list>
     </option>
   </component>
@@ -145,10 +191,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="135" />
+    <option name="y" value="62" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -165,6 +212,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,7 +246,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +254,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,11 +336,11 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -608,20 +659,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4362596-7be1-4929-b60c-49b068cd029a" name="Default" comment="" />
-      <created>1509817814165</created>
+      <changelist id="2f84ef6f-3cf4-487c-9e2b-2ee17301bc47" name="Default" comment="" />
+      <created>1509988010569</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1509817814165</updated>
-      <workItem from="1509817817405" duration="1096000" />
+      <updated>1509988010569</updated>
+      <workItem from="1509988014103" duration="871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1096000" />
+    <option name="totallyTimeSpent" value="871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="135" y="62" width="1612" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -635,10 +686,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3138614" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21246007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -665,140 +716,127 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JavaScript-modules-diagram//Users/codecadet/Dev/CasinoRoyale/src/org/academiadecodigo/casinoroyale">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="-4880.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <VISIBILITY>Details</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="uml://MODULES/mdl-CasinoRoyale">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-CasinoRoyale</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">mdl-CasinoRoyale</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-274.0" y="-41.5" />
-          <SelectedNodes>
-            <node>mdl-CasinoRoyale</node>
-          </SelectedNodes>
-          <Categories />
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Casino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Croupier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="method#getDeck#0;class#Croupier#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/DeckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/PlayerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="method#Value#0;class#Value#0" expanded="false" />
+            <element signature="method#getValue#0;class#Value#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Table#0;class#Table#0" expanded="false" />
+            <element signature="method#getPlayers#0;class#Table#0" expanded="false" />
+            <element signature="method#closeTable#0;class#Table#0" expanded="false" />
+            <element signature="method#shuffle#0;class#Table#0" expanded="false" />
+            <element signature="method#giveDeck#0;class#Table#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/org.academiadecodigo.casinoroyale">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.academiadecodigo.casinoroyale</OriginalElement>
-          <nodes>
-            <node x="571.2777777777778" y="1213.0">org.academiadecodigo.casinoroyale.Casino</node>
-            <node x="0.0" y="0.0">org.academiadecodigo.casinoroyale.Value</node>
-            <node x="234.9236111111111" y="454.5">org.academiadecodigo.casinoroyale.Card</node>
-            <node x="337.77777777777777" y="789.0">org.academiadecodigo.casinoroyale.Table</node>
-            <node x="369.0" y="121.5">org.academiadecodigo.casinoroyale.Type</node>
-            <node x="235.6736111111111" y="644.0">org.academiadecodigo.casinoroyale.DeckFactory</node>
-            <node x="680.0" y="643.5">org.academiadecodigo.casinoroyale.PlayerHandler</node>
-            <node x="691.7777777777778" y="866.0">org.academiadecodigo.casinoroyale.Server</node>
-            <node x="417.27777777777777" y="1067.0">org.academiadecodigo.casinoroyale.Game</node>
-            <node x="642.0" y="410.0">org.academiadecodigo.casinoroyale.Player</node>
-            <node x="403.6736111111111" y="622.0">org.academiadecodigo.casinoroyale.Croupier</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.academiadecodigo.casinoroyale.Server" target="org.academiadecodigo.casinoroyale.PlayerHandler">
-              <point x="-65.0" y="-37.0" />
-              <point x="756.7777777777778" y="764.0" />
-              <point x="763.0" y="764.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Card" target="org.academiadecodigo.casinoroyale.Type">
-              <point x="37.25" y="-36.5" />
-              <point x="346.6736111111111" y="385.0" />
-              <point x="443.5" y="385.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.PlayerHandler" target="org.academiadecodigo.casinoroyale.Player">
-              <point x="0.0" y="-37.0" />
-              <point x="0.0" y="81.0" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.DeckFactory">
-              <point x="-111.33333333333331" y="-114.0" />
-              <point x="393.44444444444446" y="764.0" />
-              <point x="309.6736111111111" y="764.0" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Game" target="org.academiadecodigo.casinoroyale.Table">
-              <point x="0.0" y="-48.0" />
-              <point x="0.0" y="114.0" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.PlayerHandler">
-              <point x="111.33333333333337" y="-114.0" />
-              <point x="616.1111111111111" y="764.0" />
-              <point x="707.6666666666666" y="764.0" />
-              <point x="-55.33333333333337" y="37.0" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Card" target="org.academiadecodigo.casinoroyale.Value">
-              <point x="-37.25" y="-36.5" />
-              <point x="272.1736111111111" y="385.0" />
-              <point x="174.5" y="385.0" />
-              <point x="0.0" y="180.0" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Table" target="org.academiadecodigo.casinoroyale.Croupier">
-              <point x="0.0" y="-114.0" />
-              <point x="504.77777777777777" y="764.0" />
-              <point x="511.6736111111111" y="764.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Casino" target="org.academiadecodigo.casinoroyale.Server">
-              <point x="46.0" y="-25.5" />
-              <point x="709.2777777777778" y="1188.0" />
-              <point x="821.7777777777778" y="1188.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.DeckFactory" target="org.academiadecodigo.casinoroyale.Card">
-              <point x="-37.0" y="-36.5" />
-              <point x="-37.25" y="36.5" />
-            </edge>
-            <edge source="org.academiadecodigo.casinoroyale.Casino" target="org.academiadecodigo.casinoroyale.Game">
-              <point x="-46.0" y="-25.5" />
-              <point x="617.2777777777778" y="1188.0" />
-              <point x="504.77777777777777" y="1188.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="328.5" y="826.0" />
-          <SelectedNodes>
-            <node>org.academiadecodigo.casinoroyale.Table</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/casinoroyale/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#openServer#0;class#Server#0" expanded="false" />
+            <element signature="method#sendMessage#0;class#Server#0" expanded="false" />
+            <element signature="method#playerRemove#0;class#Server#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

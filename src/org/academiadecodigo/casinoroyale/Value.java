@@ -22,10 +22,21 @@ public enum Value {
 
     private int value;
 
+
+    /*
+    *
+    * */
+
     Value(int value){
 
         this.value = value;
     }
+
+
+    /*
+    *
+    * */
+
     public int getValue(){
 
         return this.value;

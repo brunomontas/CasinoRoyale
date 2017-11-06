@@ -10,10 +10,14 @@ public class Game {
 
     private Table table;
 
+    /*
+    * Compare Cards(logic of the Game)
+    * */
 
     public void cardCounting(){
 
     }
+
 
     public void displayInformation(){
 
